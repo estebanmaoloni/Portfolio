@@ -1,0 +1,40 @@
+.titlesContaiener{
+    margin-top: 2%;
+    text-align: center;
+}
+
+.title {
+    color: white;
+    font-family: "Kode Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-size: 45px;
+}
+
+.subTitle {
+    color: white;
+    font-family: "Kode Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-size: 25px;
+}
+
+.titleChange {
+    color: black;
+    font-family: "Kode Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-size: 45px;
+}
+
+.subTitleChange {
+    color: black;
+    font-family: "Kode Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-size: 25px;
+}

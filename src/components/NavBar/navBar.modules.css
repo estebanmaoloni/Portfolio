@@ -1,0 +1,7 @@
+.navBar{
+    height: 80px;
+    width: auto;
+    background-color: black;
+    display: flex;
+}
+

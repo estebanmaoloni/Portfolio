@@ -1,0 +1,52 @@
+.generalContainerTechnologies {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerTechnologiesText{
+    border: 2px white solid;
+    padding: 15px;
+    width: 700px;
+    margin-top: 30px;
+}
+
+.descriptionTechnologies{
+    font-size: 20px;
+    color: white;
+    font-family: "Kode Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    text-align: center;
+}
+
+.ulStyleTechnologies{
+    margin-bottom: 15px;
+    list-style: none;
+}
+
+.descriptionTechnologies p{
+    text-decoration: underline;
+}
+
+.descriptionTechnologiesWhite{
+    font-size: 30px;
+    color: black;
+    font-family: "Kode Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    text-align: center;
+}
+
+.containerTechnologiesTextWhite{
+    border: 2px black solid;
+    padding: 15px;
+    width: 700px;
+    margin-top: 30px;
+}
+
+.ulStyleTechnologiesWhite{
+    margin-bottom: 15px;
+    list-style: none;
+    color: black;
+}

@@ -1,0 +1,54 @@
+.generalContainerProjets {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerTextProjets{
+    border: 2px white solid;
+    padding: 15px;
+    width: 600px;
+    margin-top: 60px;
+}
+
+.descriptionProjets{
+    font-size: 30px;
+    color: white;
+    font-family: "Kode Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    text-align: center;
+}
+
+.ulStyleProjets{
+    list-style: none;
+    color: white;
+}
+
+.descriptionProjets p{
+    text-decoration: underline;
+}
+
+.ulStyleProjets a{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+.containerTextProjetsWhite{
+    border: 2px black solid;
+    padding: 15px;
+    width: 600px;
+    margin-top: 60px;
+}
+
+.ulStyleProjetsWhite{
+    list-style: none;
+    color: black;
+}
+
+.ulStyleProjetsWhite a{
+    text-decoration: none;
+    color: black;
+}

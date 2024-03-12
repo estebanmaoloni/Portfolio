@@ -1,0 +1,54 @@
+.generalContainerContact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerTextContact{
+    border: 2px white solid;
+    padding: 15px;
+    width: 600px;
+    margin-top: 60px;
+}
+
+.descriptionContact{
+    font-size: 30px;
+    color: white;
+    font-family: "Kode Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    text-align: center;
+}
+
+.ulStyleContact{
+    list-style: none;
+    color: white;
+}
+
+.descriptionContact p{
+    text-decoration: underline;
+}
+
+.ulStyleContact a{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+.containerTextContactWhite{
+    border: 2px black solid;
+    padding: 15px;
+    width: 600px;
+    margin-top: 60px;
+}
+
+.ulStyleContactWhite{
+    list-style: none;
+    color: black;
+}
+
+.ulStyleContactWhite a{
+    text-decoration: none;
+    color: black;
+}
