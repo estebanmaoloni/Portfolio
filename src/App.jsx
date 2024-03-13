@@ -5,7 +5,7 @@ import React, { useEffect } from "react";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import { GlobalContextProvider } from "./context/GlobalContext";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route, HashRouter } from "react-router-dom";
 import DescriptionCard from "./components/DescriptionCard/DescriptionCard";
 import Technologies from "./components/Technologies/Technologies";
 import Contact from "./components/Contact/Contact";
@@ -19,7 +19,7 @@ function App() {
 
     return (
         <>
-            <BrowserRouter>
+            <HashRouter>
                 <GlobalContextProvider>
                     <NavBar />
                     <Title />
@@ -32,7 +32,7 @@ function App() {
                     </Routes>    
                     <Footer/>
                 </GlobalContextProvider>
-            </BrowserRouter>
+            </HashRouter>
         </>
     );
 }
