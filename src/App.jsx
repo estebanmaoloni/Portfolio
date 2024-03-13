@@ -19,12 +19,12 @@ function App() {
 
     return (
         <>
-            <HashRouter>
+            <BrowserRouter>
                 <GlobalContextProvider>
                     <NavBar />
                     <Title />
                     <Routes>
-                        <Route path="/" element={<Cards />}/>
+                        <Route path="/Portfolio" element={<Cards />}/>
                         <Route path="/description" element={<DescriptionCard />}/>
                         <Route path="/technologies" element={<Technologies/>}/>
                         <Route path="/projets" element={<Projets/>}/>
@@ -32,7 +32,7 @@ function App() {
                     </Routes>    
                     <Footer/>
                 </GlobalContextProvider>
-            </HashRouter>
+            </BrowserRouter>
         </>
     );
 }
