@@ -9,7 +9,7 @@ const MenuButton = () => {
     return (
         <>
             <div className="containerMenuButton">
-                <Link to={'/'}><button className="buttonMenu"><FontAwesomeIcon icon={faHouse} /></button></Link>
+                <Link to={'/Portfolio'}><button className="buttonMenu"><FontAwesomeIcon icon={faHouse} /></button></Link>
             </div>
             
         </>
