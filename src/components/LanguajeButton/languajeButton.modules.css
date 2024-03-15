@@ -42,6 +42,7 @@
     font-weight: weight;
     font-style: normal;
     margin-top: auto;
+    z-index: 2;
 }
 
 .language-selector-menu ul {
