@@ -1,7 +1,6 @@
 .containerCenter{
     display: flex;
-    margin: 20px;
-    
+    margin: 20px;    
 }
 
 .language-selector {
@@ -24,6 +23,7 @@
     font-weight: weight;
     font-style: normal;
     margin-top: auto;
+    z-index: 9999;
 }
 
 .language-selector-btn:hover {
