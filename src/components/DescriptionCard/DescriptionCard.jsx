@@ -7,7 +7,7 @@ const DescriptionCard = () => {
     const { changeLanguaje, changeTheme } = useContext(GlobalContext); 
     
     return (
-        <div className="generalContainerCard">
+        <div className="generalContainerCard" data-aos="zoom-in">
             <div className= {changeTheme ? "containerTextCard" : "containerTextCardWhite"}>
                 {changeLanguaje ? (<p className={changeTheme ? "descriptionCard" : "descriptionWhite"}>  
                     Mi nombre es Esteban Andrés Maoloni, soy de Argentina, tengo

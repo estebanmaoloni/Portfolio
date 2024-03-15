@@ -9,7 +9,7 @@ const Projets = () => {
 const { changeLanguaje, changeTheme } = useContext(GlobalContext);
 
     return (
-        <div className="generalContainerProjets">
+        <div className="generalContainerProjets" data-aos="zoom-in">
             <div className={changeTheme ? "containerTextProjets" : "containerTextProjetsWhite"}>
                 {changeLanguaje ? (
                     <div className="descriptionProjets">

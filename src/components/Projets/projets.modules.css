@@ -34,8 +34,6 @@
     color: white;
 }
 
-
-
 .containerTextProjetsWhite{
     border: 2px black solid;
     padding: 15px;
@@ -51,4 +49,39 @@
 .ulStyleProjetsWhite a{
     text-decoration: none;
     color: black;
+}
+
+ul li:hover{
+    color: #007bff;
+}
+
+ul li a:hover{
+    color: #007bff;
+}
+
+@media only screen and (max-width: 480px) {
+
+    .containerTextProjets{
+        border: 2px white solid;
+        padding: 15px;
+        width: 400px;
+        margin-top: 60px;
+    }
+    
+    .descriptionProjets{
+        font-size: 20px;
+        color: white;
+        font-family: "Kode Mono", monospace;
+        font-optical-sizing: auto;
+        font-weight: weight;
+        text-align: center;
+    }
+
+    .containerTextProjetsWhite{
+        border: 2px black solid;
+        padding: 15px;
+        width: 400px;
+        margin-top: 60px;
+    }
+
 }

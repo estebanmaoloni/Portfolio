@@ -50,3 +50,38 @@
     list-style: none;
     color: black;
 }
+
+@media only screen and (max-width: 480px) {
+
+    .containerTechnologiesText{
+        border: 2px white solid;
+        padding: 15px;
+        width: 400px;
+        margin-top: 30px;
+    }
+    
+    .descriptionTechnologies{
+        font-size: 20px;
+        color: white;
+        font-family: "Kode Mono", monospace;
+        font-optical-sizing: auto;
+        font-weight: weight;
+        text-align: center;
+    }
+
+    .descriptionTechnologiesWhite{
+        font-size: 20px;
+        color: black;
+        font-family: "Kode Mono", monospace;
+        font-optical-sizing: auto;
+        font-weight: weight;
+        text-align: center;
+    }
+    
+    .containerTechnologiesTextWhite{
+        border: 2px black solid;
+        padding: 15px;
+        width: 400px;
+        margin-top: 30px;
+    }
+}

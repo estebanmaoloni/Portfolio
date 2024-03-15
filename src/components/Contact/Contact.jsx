@@ -12,13 +12,13 @@ const Contact = () => {
     const { changeLanguaje, changeTheme } = useContext(GlobalContext);
 
     return (
-        <div className="generalContainerContact">
+        <div className="generalContainerContact" data-aos="zoom-in">
             <div className={changeTheme ? "containerTextContact" : "containerTextContactWhite"}>
                 {changeLanguaje ? (
                     <div className="descriptionContact">
                         <ul className={changeTheme ? "ulStyleContact" : "ulStyleContactWhite"}>
                             <p>Contacto:</p>
-                            <li><FontAwesomeIcon icon={faEnvelope} /> estenanmaoloni@gmail.com</li>
+                            <li className="noneStyle"><FontAwesomeIcon icon={faEnvelope} /> estenanmaoloni@gmail.com</li>
                             <li><FontAwesomeIcon icon={faLinkedin} /><a href="https://www.linkedin.com/in/esteban-maoloni"> Linkedin</a></li>
                             <li><FontAwesomeIcon icon={faGithub} /><a href="https://github.com/estebanmaoloni?tab=repositories"> GitHub</a></li>
                             <li><FontAwesomeIcon icon={faWhatsapp} /><a href="https://wa.me/543402505659"> WhatsApp</a></li>
@@ -28,7 +28,7 @@ const Contact = () => {
                     <div className="descriptionContact">
                         <ul className={changeTheme ? "ulStyleContact" : "ulStyleContactWhite"}>
                             <p>Contact:</p>
-                            <li><FontAwesomeIcon icon={faEnvelope} /> estenanmaoloni@gmail.com</li>
+                            <li className="noneStyle"><FontAwesomeIcon icon={faEnvelope} /> estenanmaoloni@gmail.com</li>
                             <li><FontAwesomeIcon icon={faLinkedin} /><a href="https://www.linkedin.com/in/esteban-maoloni"> Linkedin</a></li>
                             <li><FontAwesomeIcon icon={faGithub} /><a href="https://github.com/estebanmaoloni?tab=repositories"> GitHub</a></li>
                             <li><FontAwesomeIcon icon={faWhatsapp} /><a href="https://wa.me/543402505659"> WhatsApp</a></li>

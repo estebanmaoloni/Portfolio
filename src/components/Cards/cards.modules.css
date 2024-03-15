@@ -55,3 +55,65 @@
 .buttonCard:hover {
     background-color: #0056b3;
 }
+
+@media only screen and (max-width: 480px) {
+
+    .cardsContainer {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1px;
+        justify-content: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 60vh;
+    }
+    
+    
+    .card {
+        width: 250px;
+        height: 140px;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        background-color: #fff;
+        margin-top: 12px;
+    }
+    
+    .card h2 {
+        font-size: 20px;
+        font-family: "Kode Mono", monospace;
+        font-optical-sizing: auto;
+        font-weight: weight;
+        font-style: normal;
+    }
+    
+    .card p {
+        font-size: 12px;
+        color: #666;
+        font-family: "Kode Mono", monospace;
+        font-optical-sizing: auto;
+        font-weight: 600;
+        font-style: normal;
+    }
+    
+    .buttonCard {
+        padding: 10px 15px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        background-color: #007bff;
+        color: white;
+        font-size: 12px;
+        font-weight: bold;
+        transition: background-color 0.3s ease;
+        font-family: "Kode Mono", monospace;
+        font-weight: weight;
+        font-style: normal;
+        margin-top: auto;
+    }
+    
+    .buttonCard:hover {
+        background-color: #0056b3;
+    }
+  }

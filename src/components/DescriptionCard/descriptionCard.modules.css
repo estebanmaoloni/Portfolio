@@ -33,3 +33,36 @@
     font-optical-sizing: auto;
     font-weight: weight;
 }
+
+@media only screen and (max-width: 480px) {
+
+    .containerTextCard{
+        border: 2px white solid;
+        padding: 15px;
+        width: 400px;
+        margin-top: 30px;
+    }
+    
+    .descriptionCard{
+        font-size: 20px;
+        color: white;
+        font-family: "Kode Mono", monospace;
+        font-optical-sizing: auto;
+        font-weight: weight;
+    }
+    
+    .containerTextCardWhite{
+        border: 2px black solid;
+        padding: 15px;
+        width: 400px;
+        margin-top: 30px;
+    }
+    
+    .descriptionWhite{
+        font-size: 20px;
+        color: black;
+        font-family: "Kode Mono", monospace;
+        font-optical-sizing: auto;
+        font-weight: weight;
+    }
+}

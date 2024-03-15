@@ -38,3 +38,48 @@
     font-style: normal;
     font-size: 25px;
 }
+
+@media only screen and (max-width: 480px) {
+
+    .titlesContaiener{
+        margin-top: 5%;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    
+    .title {
+        color: white;
+        font-family: "Kode Mono", monospace;
+        font-optical-sizing: auto;
+        font-weight: weight;
+        font-style: normal;
+        font-size: 35px;
+    }
+    
+    .subTitle {
+        color: white;
+        font-family: "Kode Mono", monospace;
+        font-optical-sizing: auto;
+        font-weight: weight;
+        font-style: normal;
+        font-size: 20px;
+    }
+    
+    .titleChange {
+        color: black;
+        font-family: "Kode Mono", monospace;
+        font-optical-sizing: auto;
+        font-weight: weight;
+        font-style: normal;
+        font-size: 35px;
+    }
+    
+    .subTitleChange {
+        color: black;
+        font-family: "Kode Mono", monospace;
+        font-optical-sizing: auto;
+        font-weight: weight;
+        font-style: normal;
+        font-size: 20px;
+    }
+}
