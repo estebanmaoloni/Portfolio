@@ -56,8 +56,8 @@
     .containerTechnologiesText{
         border: 2px white solid;
         padding: 15px;
-        width: 400px;
-        margin-top: 30px;
+        width: 380px;
+        margin-top: 20px;
     }
     
     .descriptionTechnologies{
@@ -81,7 +81,7 @@
     .containerTechnologiesTextWhite{
         border: 2px black solid;
         padding: 15px;
-        width: 400px;
-        margin-top: 30px;
+        width: 380px;
+        margin-top: 20px;
     }
 }
