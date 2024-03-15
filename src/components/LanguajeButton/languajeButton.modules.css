@@ -44,6 +44,7 @@
     font-weight: weight;
     font-style: normal;
     margin-top: auto;
+    position: relative;
     z-index: 2;
 }
 
@@ -51,17 +52,18 @@
     list-style: none;
     padding: 0;
     margin: 0;
+    position: relative;
     z-index: 2;
 }
 
 .language-selector-menu ul li {
     padding: 5px 10px;
     cursor: pointer;
+    position: relative;
     z-index: 2;
 }
 
 .language-selector-menu ul li:hover {
     background-color: #a5a1a1;
-    z-index: 2;
 }
 
