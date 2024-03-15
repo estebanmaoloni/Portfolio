@@ -57,7 +57,7 @@
         border: 2px white solid;
         padding: 15px;
         width: 380px;
-        margin-top: 20px;
+        margin-top: 5px;
     }
     
     .descriptionTechnologies{
@@ -82,6 +82,6 @@
         border: 2px black solid;
         padding: 15px;
         width: 380px;
-        margin-top: 20px;
+        margin-top: 5px;
     }
 }

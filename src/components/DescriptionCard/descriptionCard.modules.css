@@ -39,8 +39,8 @@
     .containerTextCard{
         border: 2px white solid;
         padding: 15px;
-        width: 400px;
-        margin-top: 20px;
+        width: 390px;
+        margin-top: 5px;
     }
     
     .descriptionCard{
@@ -54,8 +54,8 @@
     .containerTextCardWhite{
         border: 2px black solid;
         padding: 15px;
-        width: 400px;
-        margin-top: 30px;
+        width: 390px;
+        margin-top: 5px;
     }
     
     .descriptionWhite{
