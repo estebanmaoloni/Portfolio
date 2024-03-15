@@ -23,7 +23,6 @@
     font-weight: weight;
     font-style: normal;
     margin-top: auto;
-    z-index: 2;
 }
 
 .language-selector-btn:hover {
@@ -44,23 +43,17 @@
     font-weight: weight;
     font-style: normal;
     margin-top: auto;
-    position: relative;
-    z-index: 2;
 }
 
 .language-selector-menu ul {
     list-style: none;
     padding: 0;
     margin: 0;
-    position: relative;
-    z-index: 2;
 }
 
 .language-selector-menu ul li {
     padding: 5px 10px;
     cursor: pointer;
-    position: relative;
-    z-index: 2;
 }
 
 .language-selector-menu ul li:hover {
